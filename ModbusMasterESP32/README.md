@@ -1,4 +1,4 @@
-# Instruction
+# Modbus Master for ESP32
 * Sponsored by http://iotthinks.com/
 * Join us at https://www.facebook.com/groups/iotthinks
 
