@@ -1,6 +1,8 @@
 # Instruction
 Sponsored by http://iotthinks.com
 
+Join us at https://www.facebook.com/groups/iotthinks
+
 ## 1. Goals
 * To use available hardware ESP32 and TTL RS485 module
 * To connect to RS485 Temperature Meter
@@ -26,6 +28,3 @@ Buy one at http://www.dientuachau.com/ttl-to-rs485-module-1
 
 ## 4. Library
 ModbusMaster at https://github.com/4-20ma/ModbusMaster
-
-## 5. Questions?
-Join us at https://www.facebook.com/groups/iotthinks
