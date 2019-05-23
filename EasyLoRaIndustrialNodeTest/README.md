@@ -1,8 +1,8 @@
 # Easy LoRa Industrial Node Test
-## Goal
+## 1. Goal
 * To test Easy LoRa Industrial Node
 
-## Instruction
+## 2. Instruction
 * To install UART driver at https://github.com/IoTThinks/EasyLoRaGateway_v2/wiki/Install-USB-UART-driver
 * To install environment for ESP32 on Arduino IDE at https://github.com/IoTThinks/EasyLoRaGateway_v2/wiki/Setup-Arduino-IDE-and-ESP32
 * To install library for LoRa, select "LoRa by Sandeep Mistry" 
@@ -14,7 +14,7 @@
 
 ![image](https://user-images.githubusercontent.com/29994971/58245594-5876a580-7d7f-11e9-809f-c9c265755aeb.png)
 
-## TO DO
+## 3. TO DO
 * To support Modbus test
 
 
