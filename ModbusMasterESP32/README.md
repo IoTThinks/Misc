@@ -7,7 +7,7 @@ Sponsored by http://iotthinks.com
 
 ## 2. Hardware
 ### 2.1 ESP32 Dev board
-![image](https://user-images.githubusercontent.com/29994971/58235355-db413580-7d6a-11e9-85f2-02f91db1f091.png)
+![image](https://user-images.githubusercontent.com/29994971/58236140-6d960900-7d6c-11e9-932f-4aece644083d.png)
 
 ### 2.2 TTL RS485 board
 Buy one at http://www.dientuachau.com/ttl-to-rs485-module-1
