@@ -3,6 +3,7 @@
 * Join us at https://www.facebook.com/groups/iotthinks
 
 ## 1. Goals
+* To do it YOURSELF
 * To use available hardware ESP32 and TTL RS485 module
 * To connect to RS485 Temperature Meter
 * To use Arduino programming style
