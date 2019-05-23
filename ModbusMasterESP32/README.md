@@ -1,5 +1,5 @@
 # Instruction
-* Sponsored by http://iotthinks.com
+* Commercial product at http://iotthinks.com/easy-lora-industrial-node/
 * Join us at https://www.facebook.com/groups/iotthinks
 
 ## 1. Goals
@@ -27,3 +27,7 @@ Buy one at http://www.dientuachau.com/ttl-to-rs485-module-1
 
 ## 4. Library
 ModbusMaster at https://github.com/4-20ma/ModbusMaster
+
+## 5. Sample result
+![image](https://user-images.githubusercontent.com/29994971/58236530-47bd3400-7d6d-11e9-904d-096fe65bc33e.png)
+
