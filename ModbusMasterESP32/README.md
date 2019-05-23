@@ -1,5 +1,5 @@
 # Instruction
-* Commercial product at http://iotthinks.com/easy-lora-industrial-node/
+* Sponsored by http://iotthinks.com/
 * Join us at https://www.facebook.com/groups/iotthinks
 
 ## 1. Goals
@@ -31,3 +31,5 @@ ModbusMaster at https://github.com/4-20ma/ModbusMaster
 ## 5. Sample result
 ![image](https://user-images.githubusercontent.com/29994971/58236530-47bd3400-7d6d-11e9-904d-096fe65bc33e.png)
 
+## 6. Commercial product
+* Commercial product at http://iotthinks.com/easy-lora-industrial-node
