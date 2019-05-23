@@ -4,6 +4,7 @@ Sponsored by http://iotthinks.com
 ## 1. Goals
 * To use available hardware ESP32 and TTL RS485 module
 * To connect to RS485 Temperature Meter
+* To use Arduino programming style
 
 ## 2. Hardware
 ### 2.1 ESP32 Dev board
