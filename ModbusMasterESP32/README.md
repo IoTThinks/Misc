@@ -1,7 +1,6 @@
 # Instruction
-Sponsored by http://iotthinks.com
-
-Join us at https://www.facebook.com/groups/iotthinks
+* Sponsored by http://iotthinks.com
+* Join us at https://www.facebook.com/groups/iotthinks
 
 ## 1. Goals
 * To use available hardware ESP32 and TTL RS485 module
