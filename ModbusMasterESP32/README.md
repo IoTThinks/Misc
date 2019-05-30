@@ -21,8 +21,8 @@ Buy one at http://www.dientuachau.com/ttl-to-rs485-module-1
 ![image](https://user-images.githubusercontent.com/29994971/58235754-9ff33680-7d6b-11e9-841d-b725c81ccc00.png)
 
 ## 3. Connect everything together
-* (ESP32) TXD2 - (TTL RS485) TX
-* (ESP32) RXD2 - (TTL RS485) RX
+* (ESP32) TXD2 - (TTL RS485) TX   ====> YES, TX to TX
+* (ESP32) RXD2 - (TTL RS485) RX   ====> YES, RX to RX
 * (ESP32) 3.3v - (TTL RS485) VCC
 * (ESP32) GND - (TTL RS485) GND
 * (TTL RS485) A - (Temperature Meter) A
