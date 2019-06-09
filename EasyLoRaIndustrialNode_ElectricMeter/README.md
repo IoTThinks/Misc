@@ -9,6 +9,10 @@ Easy LoRa Industrial Node captures electric meter from RS485 electric meter and 
 ![image](https://user-images.githubusercontent.com/29994971/59153653-8cdda780-8a89-11e9-976c-7c3e97b2e096.png)
 
 ## 2. Modbus Configuration
+## 2.1 Modbus parameters in data sheet
+![Modbus Register](https://user-images.githubusercontent.com/29994971/59153710-1e99e480-8a8b-11e9-932b-092cb3db6bc6.jpeg)
+
+## 2.2 Modbus parameters in program
 ![image](https://user-images.githubusercontent.com/29994971/59153654-96ffa600-8a89-11e9-87ed-16b65f355c93.png)
 
 ## 3. In action
