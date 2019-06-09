@@ -1,6 +1,5 @@
-# Easy LoRa Industrial Node - Quick Start
-Easy LoRa Industrial Node sends information from both industrial RS485 and commodity sensors to Easy LoRa Gateway up to 10 km away. It is capable to turn on and off an electrical devices such as water pumps or lights via an attached Solid State Relay (SSR).
-* It provides a long range industrial sensor and actuator infrastructure to smart buildings, farms and factories without the need of 3G or Internet. A 10-storey building or a 10-hectare farm needs one Easy LoRa Gateway and multiple Easy LoRa Nodes with sensors and actuators in the building.
+# Easy LoRa Industrial Node - RS485 Eletric Meter
+Easy LoRa Industrial Node captures electric meter from RS485 electric meter and send to LoRa gateway. LoRa gateway formard the information to MQTT server.
 * Homepage: http://iotthinks.com/easy-lora-industrial-node/
 * Full WiKi: https://github.com/IoTThinks/EasyLoRaNode_Industrial/wiki
 
