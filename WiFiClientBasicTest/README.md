@@ -5,6 +5,7 @@ This is to test if an ESP32 board has wifi issue.
 * Change WIFI_NAME and WIFI_PASSWORD of the sketch.
 * The WiFi Access point should have DHCP.
 * Upload the sketch to ESP32 board.
+* Baud rate of the serial in the sketch is 9600.
 
 
 ## 2. Pass case
