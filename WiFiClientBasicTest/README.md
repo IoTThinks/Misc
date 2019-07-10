@@ -17,3 +17,7 @@ This is to test if an ESP32 board has wifi issue.
 ## 3. Failed case
 * Hit "brownout detector" issue and keep restarting the board
 ![image](https://user-images.githubusercontent.com/29994971/60953970-60d37180-a328-11e9-9c90-76c69e584f40.png)
+
+## 4. Suggested fix and reference
+* Seems to be capacitor issue. "I have now strapped a 220uF cap across 3.3v and Gnd" https://www.esp32.com/viewtopic.php?t=2784
+* Power issue. https://github.com/nkolban/esp32-snippets/issues/168
