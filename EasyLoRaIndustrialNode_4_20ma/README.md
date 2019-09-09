@@ -2,7 +2,10 @@
 
 ## 1. Converter
 ### 1.1 Module 4-20ma to RS485 converter
-Hardware information: https://www.aliexpress.com/item/32736594725.html
+Hardware information: 
+* https://www.aliexpress.com/item/32736594725.html
+* https://www.lazada.vn/products/0-20ma-4-20ma-analog-input-module-rs485-modbus-rtu-communications-wp3082adam-8ai-i304434332-s486888341.html
+
 ![image](https://user-images.githubusercontent.com/29994971/64505016-90890080-d2fc-11e9-83a0-dcb3bcd4e04e.png)
 
 ![image](https://user-images.githubusercontent.com/29994971/64504498-12c3f580-d2fa-11e9-97cc-9775da124da0.png)
