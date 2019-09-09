@@ -8,7 +8,7 @@ Description: http://www.dientuachau.com/current-to-voltage-module-0-4-20ma-to-0-
 ![image](https://user-images.githubusercontent.com/29994971/64226509-d9f6db80-cf09-11e9-8279-5d1831e3a89e.png)
 
 ### 1.2 4-20ma to RS485 converter
-![image](https://user-images.githubusercontent.com/29994971/64504545-41da6700-d2fa-11e9-8b0b-a72543c2f311.png)
+![image](https://user-images.githubusercontent.com/29994971/64505016-90890080-d2fc-11e9-83a0-dcb3bcd4e04e.png)
 
 ![image](https://user-images.githubusercontent.com/29994971/64504498-12c3f580-d2fa-11e9-97cc-9775da124da0.png)
 
