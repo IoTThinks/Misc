@@ -1,13 +1,13 @@
 # Easy LoRa Industrial Node for 4-20ma
 
 ## 1. Converter
-### 1.1 4-20ma to RS485 converter
+### 1.1 Module 4-20ma to RS485 converter
 Reference: https://www.aliexpress.com/item/32736594725.html
 ![image](https://user-images.githubusercontent.com/29994971/64505016-90890080-d2fc-11e9-83a0-dcb3bcd4e04e.png)
 
 ![image](https://user-images.githubusercontent.com/29994971/64504498-12c3f580-d2fa-11e9-97cc-9775da124da0.png)
 
-### 1.2 Current to voltage converter
+### 1.2 Module Current to voltage converter
 Description: http://www.dientuachau.com/current-to-voltage-module-0-4-20ma-to-0-3-3v5v
 ![image](https://user-images.githubusercontent.com/29994971/64226457-ad42c400-cf09-11e9-8199-b91d53c3b105.png)
 
