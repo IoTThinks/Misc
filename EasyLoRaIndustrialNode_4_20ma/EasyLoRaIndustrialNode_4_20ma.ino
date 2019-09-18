@@ -3,13 +3,11 @@
 void setup() {  
   setupSerial();
   setupLED();  
-  //setupButton();
   //setupWiFi();
   delay(1000);
-  //setupOTA();
   setupLoRa();
-  setupSensor();  
-  //setupModbus();
+  //setupSensor();  
+  setupModbus();
   
   // Blink all leds
   blinkAllLEDs();
@@ -23,21 +21,17 @@ void loop() {
   delay(500);
 
   // Send message from commodity sensor
-  String cs_data=getSensor();  
-  delay(1000);
+  //String cs_data=getSensor();  
+  //delay(1000);
 
   // Send message from modbus sensor
-  //String mb_data = getModbusSensor();
-  //delay(2000);
+  String mb_data = getModbusSensor();
+  delay(2000);
 
   // Send json-like data to gateway
   //sendLoRaMessage(cs_data + "," + mb_data);
-  sendLoRaMessage(cs_data);
+  //sendLoRaMessage(cs_data);
   
   //String loraMsg = receiveLoRaMessage();
   //Serial.println("Received LoRa Message: " + loraMsg);
-
-  //delay(500);
-  //buttonPressed();
-  //waitingForOTA();
 }

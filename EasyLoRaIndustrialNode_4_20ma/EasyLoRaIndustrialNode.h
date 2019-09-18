@@ -39,8 +39,14 @@
 #include <HardwareSerial.h>
 #define MODBUS_RXD  16
 #define MODBUS_TXD  17
-#define MODBUS_REGISTERID 0x2010
-#define MODBUS_REGISTERWORD 1
+
+// For Temperature
+#define MODBUS_TEMP_REGISTERID 0x00
+#define MODBUS_TEMP_REGISTERWORD 1
+
+// For Humid
+#define MODBUS_HUMID_REGISTERID 0x01
+#define MODBUS_HUMID_REGISTERWORD 1
 
 // instantiate ModbusMaster object
 ModbusMaster modbus;

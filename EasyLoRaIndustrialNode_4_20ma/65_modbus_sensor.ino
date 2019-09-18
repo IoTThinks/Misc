@@ -54,19 +54,36 @@ bool getResultMsg(ModbusMaster *node, uint8_t result)
 
 String getModbusSensor() {
   Serial.println("[MODBUS_SENSOR] Gettting Modbus sensor");
-  
+  String returnValue = "mbstemp:" + getModbusValue(MODBUS_TEMP_REGISTERID, MODBUS_TEMP_REGISTERWORD) +
+                       ",mbshumid:" + getModbusValue(MODBUS_HUMID_REGISTERID, MODBUS_HUMID_REGISTERWORD);
+         
+  Serial.println("[MODBUS_SENSOR] Sensor value=" + (String)returnValue);
+  return returnValue;
+}
+
+String getModbusValue(uint16_t regId, uint16_t regWord) {
   // Getting result from register id with number of words
-  uint8_t result = modbus.readHoldingRegisters(MODBUS_REGISTERID, MODBUS_REGISTERWORD);
+  uint8_t result = modbus.readHoldingRegisters(regId, regWord);
+  long finalResult = 0;
+  
   if (getResultMsg(&modbus, result)) 
   {
-    double res_dbl = modbus.getResponseBuffer(0) / 10.0;
-    String res = "[MODBUS_SENSOR] Modbus message: " + String(res_dbl);
-    Serial.println("[MODBUS_SENSOR] Modbus response message: " + String(res_dbl));
-    
-    return "mb_temp:" + (String) res_dbl;
+    // Loop for multiple word
+    for (int i=0; i < regWord; i++)
+    {
+      int wordItem = modbus.getResponseBuffer(i);
+      //String resItem = "[MODBUS_SENSOR] Modbus value at word: " + String(wordItem);
+      //Serial.println(resItem);
+
+      // Shift value to left 16 bit
+      finalResult = finalResult << 16 | wordItem ;
+    }
+
+    Serial.println("[MODBUS_SENSOR] Modbus response message: " + String(finalResult));
+    return (String) finalResult;
   }
   else 
   {
-    return "mb_event:error";
+    return "error";
   }   
 }
