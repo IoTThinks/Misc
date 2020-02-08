@@ -1,15 +1,14 @@
 # Easy LoRa Industrial Node - RS485 SHT20
-Easy LoRa Industrial Node captures electric meter from RS485 electric meter and send to LoRa gateway. LoRa gateway formard the information to MQTT server.
+Easy LoRa Industrial Node captures temperature and humidity from RS485 SHT20 sensor and send to LoRa gateway. LoRa gateway formards the information to server. The server converts data and display them.
 * Homepage: http://iotthinks.com/easy-lora-industrial-node/
 * Full WiKi: https://github.com/IoTThinks/EasyLoRaNode_Industrial/wiki
 
-![image](https://user-images.githubusercontent.com/29994971/74079271-8021b100-4a67-11ea-83f8-0a546501f1f8.png)
+![image](https://user-images.githubusercontent.com/29994971/74079393-68e3c300-4a69-11ea-8f1b-abe004e8444e.png)
 
 ## 1. Setup
 * Easy LoRa Gateway: http://iotthinks.com/easy-lora-gateway/
 * Easy LoRa Industrial Node: http://iotthinks.com/easy-lora-industrial-node/
 * RS485 SHT20: https://htpro.vn/Nhiet-do-do-am/cam-bien-sht-nhiet-do-do-am-giao-tiep-rs485-modbus.html
-
 
 ## 2. Modbus Configuration
 ## 2.1 Modbus parameters in data sheet
@@ -22,11 +21,14 @@ Easy LoRa Industrial Node captures electric meter from RS485 electric meter and 
 ![image](https://user-images.githubusercontent.com/29994971/74079326-3a191d00-4a68-11ea-8f00-42a5d7d49164.png)
 
 ## 3. In action
-### 3.1 Reading temperature from LoRa node
-![image](https://user-images.githubusercontent.com/29994971/59153655-9d8e1d80-8a89-11e9-8f16-54df20a09c68.png)
+### 3.1 Reading temperature and humid from RS485 Sensor and sending to LoRa gateway
+![image](https://user-images.githubusercontent.com/29994971/74079364-f96dd380-4a68-11ea-995a-a8d30d9ce594.png)
 
-### 3.2 Reading voltage
-![image](https://user-images.githubusercontent.com/29994971/59153656-a67eef00-8a89-11e9-83a4-7685ca73fb09.png)
+### 3.2 LoRa gateway to receive sensor data from LoRa node and send to ThingsBoard Server
+![image](https://user-images.githubusercontent.com/29994971/74079426-ed364600-4a69-11ea-806f-8befef32d48d.png)
 
-### 3.3 Reading from electrict meter
-![image](https://user-images.githubusercontent.com/29994971/59153657-af6fc080-8a89-11e9-862c-2d864111f55f.png)
+### 3.3 ThingsBoard server to convert data 
+![image](https://user-images.githubusercontent.com/29994971/74079445-38e8ef80-4a6a-11ea-8b63-4ed7da6c828f.png)
+
+### 3.4 ThingsBoard server to display data
+![image](https://user-images.githubusercontent.com/29994971/74079461-67ff6100-4a6a-11ea-9bc8-b7e3aaa280d1.png)
