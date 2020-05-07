@@ -6,6 +6,6 @@ To create a Basic IoT (with dummy sensor data), send the data to ThingsBoard and
 * Source code at: https://github.com/IoTThinks/Misc/tree/master/BasicIoT
 * Ask question at: https://www.facebook.com/groups/iotthinks/
 
-If you want to deploy the IoTs faster and more professional, subscribe to our Easy LoRaWAN Services at http://iotthinks.com/services/
+If you want to deploy the IoTs faster and more professionally, subscribe to our Easy LoRaWAN Services at http://iotthinks.com/services/
 
 ![Basic IoT 12](https://user-images.githubusercontent.com/29994971/81282035-d9a87480-9084-11ea-90f1-36d6074b0c83.png)
