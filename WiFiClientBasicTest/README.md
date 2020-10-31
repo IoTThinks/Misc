@@ -1,12 +1,15 @@
 # WiFiClientBasicTest
 This is to test if an ESP32 board has wifi issue.
 
+WiFi may consume a lot of power, especially at startup.
+![image](https://user-images.githubusercontent.com/29994971/97771997-0f7e6f80-1b75-11eb-829b-c106f5300311.png)
+
+
 ## 1. Steps:
 * Change WIFI_NAME and WIFI_PASSWORD of the sketch.
 * The WiFi Access point should have DHCP.
 * Upload the sketch to ESP32 board.
 * Baud rate of the serial in the sketch is 9600.
-
 
 ## 2. Pass case
 * Able to get IP
